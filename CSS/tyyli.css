@@ -52,6 +52,12 @@ _:-ms-lang(x),
     display: none;
 }
 
+@-moz-document url-prefix() {
+    #myVideo {
+        height: inherit !important;
+    }
+}
+
 #myVideo {
     object-fit: cover;
     width: 100%;

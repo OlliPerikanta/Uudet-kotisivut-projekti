@@ -39,6 +39,10 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    -webkit-display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: column;
 }
 
 .aloitus-teksti {

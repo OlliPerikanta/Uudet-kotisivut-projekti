@@ -47,6 +47,11 @@ a {
 
 }
 
+_:-ms-lang(x),
+.pois {
+    display: none;
+}
+
 #myVideo {
     object-fit: cover;
     width: 100%;

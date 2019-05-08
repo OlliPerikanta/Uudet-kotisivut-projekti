@@ -35,19 +35,15 @@ a {
 
 .section1 {
     padding: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    -webkit-display: flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    -webkit-flex-direction: column;
 }
 
 .aloitus-teksti {
     margin-top: 0px;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -56,11 +52,7 @@ _:-ms-lang(x),
     display: none;
 }
 
-@-moz-document url-prefix() {
-    #myVideo {
-        height: inherit !important;
-    }
-}
+
 
 #myVideo {
     object-fit: cover;

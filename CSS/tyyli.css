@@ -129,7 +129,6 @@ nav ul li a {
     font-size: 14px;
     line-height: 1.42857143;
     user-select: none;
-    transition: inherit !important;
     text-decoration-line: none !important;
 }
 
@@ -219,16 +218,22 @@ _:-ms-lang(x),
         margin-top: 6px;
     }
 
+    nav {
+        transition: 1s;
+    }
+
     nav ul {
         max-height: 0px;
         background: #000;
     }
     .black {
+        transition: 1s;
         background: #000;
     }
 
     nav.black ul {
         background: #000;
+
     }
 
     .showing {
@@ -236,6 +241,7 @@ _:-ms-lang(x),
     }
 
     nav ul li {
+        transition: 1s;
         box-sizing: border-box;
         width: 100%;
         padding: 24px;

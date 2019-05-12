@@ -113,9 +113,6 @@ nav ul li a {
 }
 
 .ala-painike {
-    bottom: 3%;
-    left: 50%;
-    position: absolute;
     border-radius: 10px;
     color: #fff !important;
     background-color: rgba(255, 255, 255, 0.1);

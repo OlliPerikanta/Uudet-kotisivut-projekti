@@ -86,6 +86,16 @@ nav ul li a {
     font-size: 16px;
 }
 
+nav ul li .contact-button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #25D366;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
 .menu-icon {
     width: 100%;
     text-align: right;
@@ -138,9 +148,11 @@ nav ul li a {
     0% {
         background-size: 100% auto;
     }
+
     50% {
         background-size: 140% auto;
     }
+
     100% {
         background-size: 100% auto;
     }
@@ -199,6 +211,7 @@ nav ul li a {
     .etutekstin-tyylitys {
         font-size: 55px !important;
     }
+
     .vasen-columni-aloitus {
         padding-left: 50px;
     }
@@ -210,6 +223,7 @@ nav ul li a {
     .etutekstin-tyylitys {
         font-size: 45px !important;
     }
+
     .vasen-columni-aloitus {
         padding-left: 50px;
     }
@@ -218,12 +232,14 @@ nav ul li a {
 /* TÄSTÄ ALKAA MOBIILI OSUUS*/
 
 @media only screen and (max-width: 767px) {
+
     /*---------------------------------------------------------------------------*/
     /*YLEISASETUKSIA*/
     /*---------------------------------------------------------------------------*/
     .etutekstin-tyylitys {
         font-size: 35px !important;
     }
+
     .logo {
         position: fixed;
         top: 0;
@@ -238,6 +254,7 @@ nav ul li a {
         max-height: 0px;
         background: #000;
     }
+
     .black {
         transition: 1s;
         background: #000;

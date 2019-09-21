@@ -72,30 +72,36 @@
         <div class="aloitustausta-olliperikanta">
 
             <nav>
-                <div class="menu-icon">
-                    <i class="fa fa-bars fa-2x"></i>
+                <span class="menu-icon" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <div class="logo">
+                            <p>LOGO</p>
+                        </div>
+                        <ul>
+                            <li><a href="#">MINUSTA</a></li>
+                            <li><a href="#">OSAAMINEN</a></li>
+                            <li><a href="#">REFERENSSIT</a></li>
+                            <li><a class="contact-button" href="#">OTA YHTEYTTÄ</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="logo">
-                    LOGO
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#">MINUSTA</a></li>
-                        <li><a href="#">OSAAMINEN</a></li>
-                        <li><a href="#">REFERENSSIT</a></li>
-                        <li><a class="contact-button" href="#">OTA YHTEYTTÄ</a></li>
-                    </ul>
-                </div>
+
+
+
             </nav>
             <div class="row" style="height: 100%; margin: inherit;">
 
                 <div class="col-lg-10 vasen-columni-aloitus">
-                    <h1 class="etutekstin-tyylitys">FRONT-END DEVELOPER <br> - WEBMASTER<br><br>
-                        <p href="" class="typewrite" data-period="1000" data-type='[ "Hei, Olen Olli Perikanta", "Olen luova.", "Tykkään suunnitella.", "Tykkään kehittää." ]'>
-                            <span class="wrap"></span>
-                        </p>
+                    <div style="max-width: 800px; margin-left: auto; margin-right: auto;">
+                        <h1 class="etutekstin-tyylitys">FRONT-END DEVELOPER <br> - WEBMASTER<br><br>
+                            <p href="" class="typewrite" data-period="1000" data-type='[ "Hei, Olen Olli Perikanta", "Olen luova.", "Tykkään suunnitella.", "Tykkään kehittää." ]'>
+                                <span class="wrap"></span>
+                            </p>
 
-                    </h1>
+                        </h1>
+                    </div>
                 </div>
                 <div class="col-lg-2"></div>
                 <div class="col-12" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">

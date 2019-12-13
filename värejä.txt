@@ -1,5 +1,5 @@
 Punainen: #dd4061
 
-Tumma: #1f3040 , vaalea: #def5f6;  ,  Saman sivun vaaleasininen: #23bec6;
+Tumma: #1f3040 , vaalea: #def5f6;  ,  Saman sivun vaaleasininen: #23bec6; uus: linear-gradient(135deg,#204666,#22313f)!important;
 
 gignatin vihreä: #3ece89
